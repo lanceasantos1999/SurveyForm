@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheWeeknd</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">The Weeknd Survey Form</h1>
+    <p id="description">Please fill out this form with the required information</p>
+    <form id="survey-form">
+        <div class="input-element">
+            <label id="name-label">Name
+                <input id="name" type="text" placeholder="Enter your name" required />
+        </div>
+        </label>
+        <div class="input-element">
+            <label id="email-label">Email
+                <input id="email" type="email" placeholder="Enter your email" required />
+        </div>
+        </label>
+        <div class="input-element">
+            <label id="number-label">Age(optional)
+                <input id="number" type="number" min="18" max="50" placeholder="Age" />
+        </div>
+        </label>
+        <div class="input-element">
+            <p>Choose your favorite song of The Weeknd</p>
+            <select id="dropdown">
+                <option value="choose">Select here</option>
+                <option value="creepin">Creepin'</option>
+                <option value="die for you">Die For You</option>
+                <option value="blinding lights">Blinding Lights</option>
+                <option value="popular">Popular</option>
+                <option value="reminder">Reminder</option>
+            </select>
+        </div>
+        <div>
+            <p>Would you recommend The Weeknd to a friend?</p>
+            <label>Definitely
+                <input name="user-recommend" value="definitely" type="radio" class="input-radio" checked="">
+            </label>
+        </div>
+        <div>
+            <label>Maybe
+                <input name="user-recommend" value="maybe" type="radio" class="input-radio" checked="">
+            </label>
+        </div>
+        <div>
+            <label>Not sure
+                <input name="user-recommend" value="not-sure" type="radio" class="input-radio" checked="">
+            </label>
+        </div>
+        <div>
+            <p>Favorite album of The Weeknd (Check all that you like)</p>
+            <label>House of Balloons
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <label>Thursday
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <label>Echoes of Silence
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <label>Trilogy
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <label>Kiss Land
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <label>Beauty Behind The Madness
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <label>Starboy
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <label>My Dear Melancholy,
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <label>After Hours
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <label>Dawn FM
+                <input name="prefer" value="challenges" type="checkbox" class="input-checkbox">
+            </label>
+        </div>
+        <div>
+            <p>What is The Weeknd's real name</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter here..."></textarea>
+        </div>
+        <div>
+            <button type="submit" id="submit" class="submit-button">
+                Submit
+            </button>
+        </div>
+    </form>
+</body>
+
+</html>
